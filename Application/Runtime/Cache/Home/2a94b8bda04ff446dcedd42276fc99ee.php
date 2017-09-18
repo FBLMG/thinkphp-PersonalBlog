@@ -1,0 +1,221 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--导入样式文件-->
+<link rel='stylesheet' type='text/css' href='http://fonts.useso.com/css?family=Open+Sans:300,400,600,700,400italic'>
+<link rel="stylesheet" type="text/css" href="/blog/Public/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/blog/Public/font-awesome/css/font-awesome.min.css">    
+<link rel="stylesheet" type="text/css" href="/blog/Public/css/style.css">
+<script src="/blog/Public/js/jquery-1.11.3.min.js"></script>
+<script src="/blog/Public/js/bootstrap.min.js"></script>
+<!--导入样式文件-->
+<title>个人博客--首页</title>
+</head>
+<!---->
+<div class="main-body">	
+        <div class="container">
+            <div class="row">               
+                <div class="main-page">
+
+                    <aside class="main-navigation">
+                        <div class="main-menu">
+
+                            <div class="menu-container">
+                                <div class="block-keep-ratio block-keep-ratio-2-1 block-width-full home">                                    
+                                    <a href="<?php echo U('Home/Index/index');?>" class="block-keep-ratio__content  main-menu-link">
+                                        <span class="main-menu-link-text">
+                                           首页   
+                                        </span>                                        
+                                    </a>
+                                </div>                                
+                            </div>
+
+                            <div class="menu-container">                                
+                                <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
+                                    <a href="<?php echo U('Home/Reader/reader');?>" class="main-menu-link about block-keep-ratio__content flexbox-center">
+                                       <i class="fa fa-user fa-4x main-menu-link-icon"></i>
+                                        读者天地
+                                    </a>                                   
+                                </div>
+
+                                <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
+                                    <a href="<?php echo U('Home/Index/contact');?>" class="main-menu-link contact block-keep-ratio__content flexbox-center">
+                                        <i class="fa fa-envelope-o fa-4x main-menu-link-icon"></i>
+                                        留言
+                                    </a>                                
+                                </div>    
+                            </div>   
+
+                            <div class="menu-container">
+                                <div class="block-keep-ratio block-keep-ratio-1-1 block-keep-ratio-md-2-1 block-width-full gallery">                                    
+                                    <a href="<?php echo U('Home/Blog/index');?>" class="main-menu-link  block-keep-ratio__content">
+                                        <span class="main-menu-link-text">
+                                            博客  
+                                        </span>                                            
+                                    </a>                                    
+                                </div>                                
+                            </div>
+
+                            <!-- sidebar carousel -->
+                            <div class="menu-container">
+                                <div class="mauris">
+                                    <div id="carousel-menu" class="carousel slide" data-ride="carousel">
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="item active">
+                                            <a href="<?php echo U('Home/Image/image');?>">
+                                                <img src="/blog/Public/images/slider-img-1.png" alt="slider">
+                                                <div class="carousel-caption menu-caption">
+                                                   个人风采
+                                                </div>
+                                            </a>
+                                            </div>
+                                            <div class="item">
+                                            <a href="<?php echo U('Home/Image/image');?>">
+                                                <img src="/blog/Public/images/menu-bg-home.png" alt="slider">
+                                                <div class="carousel-caption menu-caption">
+                                                   奇观异景
+                                                </div>
+                                            </a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Controls -->
+                                        <a class="left carousel-control" href="#carousel-menu" role="button" data-slide="prev">
+                                            <span class="fa fa-caret-left" aria-hidden="true"></span>
+                                            <span class="sr-only">上一页</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#carousel-menu" role="button" data-slide="next">
+                                            <span class="fa fa-caret-right" aria-hidden="true"></span>
+                                            <span class="sr-only">下一页</span>
+                                        </a>
+                                    </div>
+                                </div> <!-- .mauris -->
+                            </div>
+                        </div> <!-- main-menu -->
+                    </aside> <!-- main-navigation -->
+                    
+                    <div class="copyrights">Collect from <a href="#" >个人博客</a></div>
+
+                    <div class="content-main">
+                        <div class="row margin-b-30">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="banner-main-home">                                
+                                    <div class="banner-main-home-text">
+                                        <div class="heading">
+                                            <h1>个人博客</h1>
+                                            <p class="text-uppercase">欢迎你的到来</p>
+                                        </div>
+                                        <div class="desc">
+                                     <!-- 进入博客出现欢迎语 -->
+                                            <p>把真诚留在空间,让朋友的家园绽放张张笑脸;把友情留在空间,让朋友家园充满温馨,感受温暖;把祝福留在空间;愿朋友家园风和日丽,阳光灿烂;把微笑留在空间,伴朋友开心,快乐每一天.欢迎你的到来：
+                                            <?php if($_SESSION['username']== "" ): ?><a rel="nofollow" href='<?php echo U("login/login");?>' target="_parent">游客</a>
+                                            <?php else: ?><a rel="nofollow" href='<?php echo U("User/user");?>' target="_parent"><?php echo ($_SESSION['username']); ?></a><?php endif; ?> </p>
+                                     <!-- 进入博客出现欢迎语 -->
+                                     <?php if($_SESSION['username']!= "" ): ?><button type="button" class="" onclick="window.location.href='<?php echo U('Home/Login/dologout');?>'">Drop out</button><?php endif; ?>
+                                        </div>
+                                    </div>
+                                    <img src="/blog/Public/images/home-img-1.png" alt="Image" class="img-responsive">
+                                </div>                        
+                            </div>    
+                        </div>
+                        <div class="row margin-b-30">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                       <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="box london">
+                                    <div class="box-icon" style="width:415px;height:210px;">
+                             <img src="/blog/Public/images/home-img-2.jpg" alt="Image" class="img-responsive" style="width:415px;height:210px;">
+                                    </div>
+                                    <div class="info float-container">
+                              
+                                        <div class="col-sm-12 london-title">
+                                            <h3 class="text-uppercase"><?php echo ($vo["title"]); ?></h3>
+                                            <h4 class="text-uppercase"><?php echo ($vo["abstract"]); ?></h4>
+                                        </div>
+                                        <p><?php echo ($vo["content"]); ?></p><hr /><?php endforeach; endif; else: echo "" ;endif; ?>
+                                        <div class="col-sm-12 location-main"> 
+                                            <div class="pull-left location">
+                                                <i class="fa fa-map-marker fa-2x"></i><span>旅游指南</span>
+                                            </div>
+                                            <div class="pull-right user-icons">
+                                                <a href="#"><i class="fa fa-star fa-2x"></i></a>
+                                                <a href="#"><i class="fa fa-user fa-2x"></i></a>
+                                                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="box paris">
+                          <?php if(is_array($datas)): $i = 0; $__LIST__ = $datas;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="box-icon">
+                                   <img src="/blog/Public/img/uploads/fileimg/<?php echo ($vo["img"]); ?>" alt="Image" style="width:415px;height:210px;">
+                                    </div>
+                                    <div class="info float-container">
+                                        <div class="col-sm-12 london-title paris-title">
+                                            <h3 class="text-uppercase"><?php echo ($vo["title"]); ?></h3>
+                                            <h4 class="text-uppercase"><?php echo ($vo["abstract"]); ?></h4>
+                                        </div>    
+                                        <p><?php echo ($vo["content"]); ?> </p><hr /><?php endforeach; endif; else: echo "" ;endif; ?>
+                                        <div class="col-sm-12 location-main"> 
+                                            <div class="pull-left location location2">
+                                                <i class="fa fa-map-marker fa-2x"></i><span>日志</span>
+                                            </div>
+                                            <div class="pull-right user-icons">
+                                                <a href="#"><i class="fa fa-star fa-2x"></i></a>
+                                                <a href="#"><i class="fa fa-user fa-2x"></i></a>
+                                                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- row -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="box bottom-main">
+                                    <div class="info float-container">
+                                        <div class="col-sm-12 bottom-title">
+                                            <h3 class="text-uppercase">图集展示</h3>
+                                            <h4 class="text-uppercase">人与自然风光</h4>
+                                        </div>
+                                        <div class="row">
+                                     <!------图片区域----->
+                                     <a href="<?php echo U('Image/image');?>">
+                                     <?php if(is_array($img)): foreach($img as $key=>$data): ?><div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                                <div class="bottom-img">
+                                                    <img src="/blog/Public/img/uploads/imgs/<?php echo ($data["img"]); ?>" alt="Image" width="338px" height="236px">
+                                                    <p class="first"><?php echo ($data["title"]); ?></p>    
+                                                </div>                                      
+                                            </div><?php endforeach; endif; ?>
+                                     </a>
+                                       <!------图片区域----->
+                                        </div>
+                                        <p class="bottom-desc">本区域只展示本博客部分图片，如果想要观赏更多的图片，请到图片展示区进行观看或者保存，如果觉得不错，请留下你宝贵的评论，你的评论是我前进更大的动力 </p><hr />
+                                        <div class="col-sm-12 location-main"> 
+                                            <div class="pull-right bottom-user">
+                                                <a href="<?php echo U('Home/Image/image');?>"><i class="fa fa-caret-right"></i><span>READ MORE</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- .content-main -->
+                </div> <!-- .main-page -->
+            </div> <!-- .row -->           
+            <footer class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
+                    <p class="copyright">Copyright © 2016 Company Name 
+                    
+                    | More Templates <a href="#" target="_blank" title="佛布朗博客">佛布朗斯基</a> - Collect from <a href="#" title="佛布朗博客" target="_blank">佛布朗博客</a></p>
+                </div>    
+            </footer>  <!-- .row -->      
+        </div> <!-- .container -->
+    </div> <!-- .main-body -->
+
+<!---->
+<body>
+</body>
+</html>

@@ -1,0 +1,54 @@
+[ 2016-11-21T22:01:41+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.096393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026036s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.8881s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0371s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1644s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.051992s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.052640s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.246744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.084296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.084953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.039972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.040515s ]
+
+[ 2016-11-21T22:02:02+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010483s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0558s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000573s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013062s ]
+

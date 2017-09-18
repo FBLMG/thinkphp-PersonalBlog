@@ -1,0 +1,1404 @@
+[ 2016-12-16T21:30:55+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.060315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009295s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.8524s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.1786s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.2318s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.034157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.036016s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.320695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.321418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.057805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.058330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.053691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.054271s ]
+
+[ 2016-12-16T21:31:04+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000408s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011013s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1482s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0712s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000814s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001696s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011017s ]
+
+[ 2016-12-16T21:37:40+08:00 ] ::1 /blog/index.php/Home/Reader/reader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005479s ]
+SQL: SHOW COLUMNS FROM `tp_usermessage` [ RunTime:0.2006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_usermessage a INNER JOIN tp_user b ON b.uid= a.uid  ORDER BY id desc LIMIT 1   [ RunTime:0.0507s ]
+SQL: SELECT * FROM tp_usermessage a INNER JOIN tp_user b ON b.uid= a.uid  ORDER BY id desc LIMIT 0,2   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000658s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003212s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\fbd96a40b52762cf1b5476984a364b86.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013350s ]
+
+[ 2016-12-16T21:37:44+08:00 ] ::1 /blog/index.php/Home/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010882s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1509s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1397s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,6   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010391s ]
+
+[ 2016-12-16T21:37:44+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009995s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 30 行.
+
+[ 2016-12-16T21:37:45+08:00 ] ::1 /blog/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000876s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008822s ]
+
+[ 2016-12-16T21:37:48+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007282s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0944s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2053s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='5' WHERE ( fid=1 ) [ RunTime:0.0731s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1478s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1477s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0016s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 5 AND `fid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011095s ]
+
+[ 2016-12-16T21:39:32+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012364s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2988s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2352s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='6' WHERE ( fid=1 ) [ RunTime:0.0940s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1853s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1547s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0017s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 6 AND `fid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016758s ]
+
+[ 2016-12-16T21:39:49+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011334s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1492s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.0862s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='7' WHERE ( fid=1 ) [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1915s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1261s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0013s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 7 AND `fid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001684s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002730s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018075s ]
+
+[ 2016-12-16T21:40:42+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014264s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.0663s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='8' WHERE ( fid=1 ) [ RunTime:0.0495s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.0726s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 8 AND `fid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006601s ]
+
+[ 2016-12-16T21:42:13+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019072s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2400s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2288s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='9' WHERE ( fid=1 ) [ RunTime:0.0506s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1464s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0013s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 9 AND `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008102s ]
+
+[ 2016-12-16T21:42:14+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000429s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021227s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1113s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.0960s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='10' WHERE ( fid=1 ) [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1757s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1442s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0014s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 10 AND `fid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017770s ]
+
+[ 2016-12-16T21:43:31+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016667s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1768s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1739s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='11' WHERE ( fid=1 ) [ RunTime:0.0814s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2079s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0012s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 11 AND `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018583s ]
+
+[ 2016-12-16T21:43:34+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013628s ]
+ERR: 非法操作:zan
+
+[ 2016-12-16T21:43:57+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011077s ]
+ERR: 非法操作:zan
+
+[ 2016-12-16T21:44:00+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011527s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0971s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1813s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='12' WHERE ( fid=1 ) [ RunTime:0.0686s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1665s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0012s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 12 AND `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022955s ]
+
+[ 2016-12-16T21:47:41+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016725s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1953s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2126s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='13' WHERE ( fid=1 ) [ RunTime:0.0475s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1923s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1006s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0012s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 13 AND `fid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017759s ]
+
+[ 2016-12-16T21:51:26+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016241s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2425s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1767s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='14' WHERE ( fid=1 ) [ RunTime:0.0382s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1727s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0012s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 14 AND `fid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013202s ]
+
+[ 2016-12-16T21:51:30+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010428s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1720s ]
+SQL: SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_knowledgecount` SET `thumb`='1' WHERE ( fid=1 ) [ RunTime:0.0437s ]
+
+[ 2016-12-16T21:51:30+08:00 ] ::1 /blog/index.php/Home/Blog/Home/Blog/files/id/$id
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013073s ]
+ERR: 非法操作:Home
+
+[ 2016-12-16T21:51:52+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012746s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1084s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2898s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='15' WHERE ( fid=1 ) [ RunTime:0.0412s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1779s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2091s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0014s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 15 AND `fid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023096s ]
+
+[ 2016-12-16T21:51:56+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003248s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.0737s ]
+SQL: SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tp_knowledgecount` SET `thumb`='2' WHERE ( fid=1 ) [ RunTime:0.1605s ]
+
+[ 2016-12-16T21:51:56+08:00 ] ::1 /blog/index.php/Home/Blog/files/id/$id.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005191s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1525s ]
+ERR: 1054:Champ '$id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `tp_knowledge` WHERE ( id=$id ) 
+ERR: 1054:Champ '$id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `tp_knowledge` WHERE ( id=$id ) 
+
+[ 2016-12-16T21:52:43+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018190s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2112s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1207s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='16' WHERE ( fid=1 ) [ RunTime:0.0418s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1856s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0019s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 16 AND `fid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013307s ]
+
+[ 2016-12-16T21:52:53+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014905s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1120s ]
+SQL: SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `tp_knowledgecount` SET `thumb`='3' WHERE ( fid=1 ) [ RunTime:0.1193s ]
+
+[ 2016-12-16T21:52:53+08:00 ] ::1 /blog/index.php/Home/Blog/files/id/%7B$id%7D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018340s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1788s ]
+ERR: 1064:Erreur de syntaxe près de '} )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `tp_knowledge` WHERE ( id={$id} ) 
+ERR: 1064:Erreur de syntaxe près de '} )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `tp_knowledge` WHERE ( id={$id} ) 
+
+[ 2016-12-16T21:53:09+08:00 ] ::1 /blog/index.php/Home/Blog/files/id/%7B$id%7D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012180s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1165s ]
+ERR: 1064:Erreur de syntaxe près de '} )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `tp_knowledge` WHERE ( id={$id} ) 
+ERR: 1064:Erreur de syntaxe près de '} )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `tp_knowledge` WHERE ( id={$id} ) 
+
+[ 2016-12-16T21:53:19+08:00 ] ::1 /blog/index.php/Home/Blog/files/id/%7B$id%7D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014419s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1661s ]
+ERR: 1064:Erreur de syntaxe près de '} )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `tp_knowledge` WHERE ( id={$id} ) 
+ERR: 1064:Erreur de syntaxe près de '} )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `tp_knowledge` WHERE ( id={$id} ) 
+
+[ 2016-12-16T21:53:22+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013206s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1702s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2258s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='17' WHERE ( fid=1 ) [ RunTime:0.0838s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1944s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1840s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0017s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 17 AND `fid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014956s ]
+
+[ 2016-12-16T21:53:56+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015671s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2464s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1793s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='18' WHERE ( fid=1 ) [ RunTime:0.0426s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1933s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1440s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0013s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 18 AND `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000853s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025564s ]
+
+[ 2016-12-16T21:54:34+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015581s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1791s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1797s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='19' WHERE ( fid=1 ) [ RunTime:0.0817s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2150s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0018s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 19 AND `fid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030111s ]
+
+[ 2016-12-16T21:56:31+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024357s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.3015s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1726s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='20' WHERE ( fid=1 ) [ RunTime:0.2728s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:2.0001s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0012s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 20 AND `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024761s ]
+
+[ 2016-12-16T21:57:47+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010564s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1428s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1786s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='21' WHERE ( fid=1 ) [ RunTime:0.1031s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1499s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1758s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0012s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 21 AND `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001999s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023251s ]
+
+[ 2016-12-16T21:58:56+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013994s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2521s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1711s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='22' WHERE ( fid=1 ) [ RunTime:0.0627s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1744s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1781s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0011s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 22 AND `fid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014289s ]
+
+[ 2016-12-16T21:59:43+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015313s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1930s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1358s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='23' WHERE ( fid=1 ) [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1973s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0014s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 23 AND `fid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000635s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001392s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023787s ]
+
+[ 2016-12-16T22:00:34+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010420s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1526s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1517s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='24' WHERE ( fid=1 ) [ RunTime:0.1104s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1310s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0013s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 24 AND `fid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000637s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002011s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024173s ]
+
+[ 2016-12-16T22:52:38+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038413s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1195s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.2212s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000747s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001422s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.214552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043250s ]
+
+[ 2016-12-16T22:52:45+08:00 ] ::1 /blog/index.php/Home/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031692s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.2425s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1368s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,6   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000681s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.251041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.251875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.036130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.098841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.099759s ]
+
+[ 2016-12-16T22:55:41+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015236s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2188s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2134s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='25' WHERE ( fid=1 ) [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1649s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0224s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1926s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0017s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 25 AND `fid` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000684s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001439s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025384s ]
+
+[ 2016-12-16T23:00:02+08:00 ] ::1 /blog/index.php/Home/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012005s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.0858s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1037s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,6   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022601s ]
+
+[ 2016-12-16T23:04:18+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000303s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023127s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1436s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.3601s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='26' WHERE ( fid=1 ) [ RunTime:0.0515s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1834s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2385s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0024s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 26 AND `fid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000665s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001445s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025125s ]
+
+[ 2016-12-16T23:04:19+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018018s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 30 行.
+
+[ 2016-12-16T23:04:20+08:00 ] ::1 /blog/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015922s ]
+
+[ 2016-12-16T23:07:59+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013536s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2801s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1256s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='27' WHERE ( fid=1 ) [ RunTime:0.0393s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1845s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0014s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 27 AND `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000943s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020383s ]
+
+[ 2016-12-16T23:10:45+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022294s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1982s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2268s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='28' WHERE ( fid=1 ) [ RunTime:0.0466s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1559s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2026s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0014s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 28 AND `fid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021437s ]
+
+[ 2016-12-16T23:10:48+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016922s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1725s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+
+[ 2016-12-16T23:10:50+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013537s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1986s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+
+[ 2016-12-16T23:12:18+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014515s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1942s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1418s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='29' WHERE ( fid=1 ) [ RunTime:0.8598s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1412s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0018s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 29 AND `fid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001136s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.362493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.363136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015015s ]
+
+[ 2016-12-16T23:12:25+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014460s ]
+NOTIC: [8] Undefined index: data F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2045s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+
+[ 2016-12-16T23:12:27+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038138s ]
+NOTIC: [8] Undefined index: data F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.2282s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+
+[ 2016-12-16T23:12:27+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019896s ]
+NOTIC: [8] Undefined index: data F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1194s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+
+[ 2016-12-16T23:12:28+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028014s ]
+NOTIC: [8] Undefined index: data F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1758s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid= ) LIMIT 1  
+
+[ 2016-12-16T23:14:13+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013760s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1522s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1780s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='30' WHERE ( fid=1 ) [ RunTime:0.1016s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2720s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1798s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0013s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 30 AND `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009958s ]
+
+[ 2016-12-16T23:14:26+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015946s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1733s ]
+SQL: SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_knowledgecount` SET `thumb`='4' WHERE ( fid=1 ) [ RunTime:0.0779s ]
+
+[ 2016-12-16T23:14:27+08:00 ] ::1 /blog/index.php/Home/Blog/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012486s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1376s ]
+SQL: SELECT `thumb` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `tp_knowledgecount` SET `thumb`='5' WHERE ( fid=1 ) [ RunTime:0.1107s ]
+
+[ 2016-12-16T23:15:00+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012109s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1495s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0911s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000427s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000856s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019545s ]
+
+[ 2016-12-16T23:15:19+08:00 ] ::1 /blog/index.php/Home/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011184s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1933s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0946s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\BlogController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,6   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000922s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016550s ]
+
+[ 2016-12-16T23:15:21+08:00 ] ::1 /blog/index.php/Home/Reader/reader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012534s ]
+SQL: SHOW COLUMNS FROM `tp_usermessage` [ RunTime:0.1709s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_usermessage a INNER JOIN tp_user b ON b.uid= a.uid  ORDER BY id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM tp_usermessage a INNER JOIN tp_user b ON b.uid= a.uid  ORDER BY id desc LIMIT 0,2   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\fbd96a40b52762cf1b5476984a364b86.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016706s ]
+
+[ 2016-12-16T23:15:34+08:00 ] ::1 /blog/index.php/Home/Blog/files.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017811s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1326s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1416s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE ( fid=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tp_knowledgecount` SET `read`='31' WHERE ( fid=1 ) [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1835s ]
+SQL: SELECT pinglun.*,user.user_img FROM `tp_pinglun` `pinglun`,`tp_user` `user` WHERE ( pinglun.uid=user.uid and pinglun.filed=1 ) LIMIT 0,2   [ RunTime:0.0021s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `read` = 31 AND `fid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000680s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001448s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\7a5733138f52fda130adaf1477d8b0e1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023922s ]
+
+[ 2016-12-16T23:15:49+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012353s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1083s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1858s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000887s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019273s ]
+

@@ -1,0 +1,24 @@
+[ 2016-12-04T20:25:47+08:00 ] ::1 /blog/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007708s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Admin\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8] Undefined index: userpwd F:\wamp\wamp\www\blog\Application\Admin\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0913s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = null AND `userpwd` = null AND `state` = 0 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-12-04T20:26:32+08:00 ] ::1 /blog/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008746s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Admin\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8] Undefined index: userpwd F:\wamp\wamp\www\blog\Application\Admin\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0729s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = null AND `userpwd` = null AND `state` = 0 LIMIT 1   [ RunTime:0.0015s ]
+

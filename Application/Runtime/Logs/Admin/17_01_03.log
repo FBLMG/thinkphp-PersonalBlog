@@ -1,0 +1,1591 @@
+[ 2017-01-03T21:32:23+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009736s ]
+NOTIC: [8] Undefined index: adminname F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 7 行.
+
+[ 2017-01-03T21:32:24+08:00 ] ::1 /blog/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010825s ]
+
+[ 2017-01-03T21:32:55+08:00 ] ::1 /blog/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008446s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.5219s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = 'hzx' AND `userpwd` = '123456' AND `state` = 0 LIMIT 1   [ RunTime:0.0175s ]
+SQL: UPDATE `tp_user` SET `lasttime`='2017-01-03 21:32:55' WHERE `username` = 'hzx' [ RunTime:0.0738s ]
+
+[ 2017-01-03T21:32:56+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010156s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0786s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1648s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1662s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2192s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1916s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0377s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000667s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007319s ]
+
+[ 2017-01-03T21:32:58+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005510s ]
+
+[ 2017-01-03T21:33:17+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010511s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1194s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.3027s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.220369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.221032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012079s ]
+
+[ 2017-01-03T21:33:26+08:00 ] ::1 /blog/index.php/Admin/Filemannger/files.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011183s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.2434s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1831s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1618s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\FilemanngerController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,6   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001202s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: cs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.190935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009805s ]
+
+[ 2017-01-03T21:33:30+08:00 ] ::1 /blog/index.php/Admin/Filemannger/fpinglun/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013079s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1992s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1406s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1190s ]
+SQL: SELECT `title` FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` WHERE `filed` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_pinglun` WHERE `filed` = 1 ORDER BY publishtime desc LIMIT 0,6   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `id` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1743s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `thumb` FROM `tp_knowledgecount` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000506s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017465s ]
+
+[ 2017-01-03T21:33:39+08:00 ] ::1 /blog/index.php/Admin/Filemannger/files.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008035s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0825s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1369s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1364s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\FilemanngerController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,6   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000857s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: cs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010504s ]
+
+[ 2017-01-03T21:33:41+08:00 ] ::1 /blog/index.php/Admin/Filemannger/update/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006092s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1511s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0999s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1077s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015228s ]
+
+[ 2017-01-03T21:33:49+08:00 ] ::1 /blog/index.php/Admin/Usermanger/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013639s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1821s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_user` LIMIT 0,6   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017380s ]
+
+[ 2017-01-03T21:33:52+08:00 ] ::1 /blog/index.php/Admin/Usermanger/update/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007448s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1153s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uid=1 )  [ RunTime:0.0011s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003899s ]
+
+[ 2017-01-03T21:33:57+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000280s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012959s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1460s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1895s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1414s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.0753s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007649s ]
+
+[ 2017-01-03T21:33:58+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006446s ]
+
+[ 2017-01-03T21:34:50+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003047s ]
+NOTIC: [8] Undefined index: adminname F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 7 行.
+
+[ 2017-01-03T21:34:51+08:00 ] ::1 /blog/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005774s ]
+
+[ 2017-01-03T21:34:59+08:00 ] ::1 /blog/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008548s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1211s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = 'hzx' AND `userpwd` = '123456' AND `state` = 0 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tp_user` SET `lasttime`='2017-01-03 21:34:59' WHERE `username` = 'hzx' [ RunTime:0.1661s ]
+
+[ 2017-01-03T21:35:00+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008968s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1031s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0647s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1177s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.0988s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000892s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009021s ]
+
+[ 2017-01-03T21:35:01+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005409s ]
+
+[ 2017-01-03T21:35:16+08:00 ] ::1 /blog/index.php/Admin/Usermanger/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010572s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1964s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user` LIMIT 0,6   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000529s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015215s ]
+
+[ 2017-01-03T21:35:22+08:00 ] ::1 /blog/index.php/Admin/Usermanger/update/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009514s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1214s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uid=7 )  [ RunTime:0.0020s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000505s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006456s ]
+
+[ 2017-01-03T21:43:44+08:00 ] ::1 /blog/index.php/Admin/Usermanger/update/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009531s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1829s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uid=7 )  [ RunTime:0.0028s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000557s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013077s ]
+
+[ 2017-01-03T21:44:08+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014306s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1859s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1741s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1566s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1122s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1571s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000841s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014823s ]
+
+[ 2017-01-03T21:44:30+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013197s ]
+
+[ 2017-01-03T21:45:23+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013156s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1831s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1631s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1800s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1780s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1519s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018195s ]
+
+[ 2017-01-03T21:45:43+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010875s ]
+
+[ 2017-01-03T21:45:47+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010783s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.2025s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1837s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1553s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1403s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1619s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000640s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011799s ]
+
+[ 2017-01-03T21:46:08+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014162s ]
+
+[ 2017-01-03T21:49:45+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012657s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1093s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1045s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1780s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1722s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1885s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000798s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015065s ]
+
+[ 2017-01-03T21:49:53+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.088579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.054033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054545s ]
+
+[ 2017-01-03T21:49:55+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007973s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1151s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0835s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1035s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.0793s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000792s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006959s ]
+
+[ 2017-01-03T21:49:55+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005601s ]
+
+[ 2017-01-03T21:49:56+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004690s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0669s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0913s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0652s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.0736s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0828s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006797s ]
+
+[ 2017-01-03T21:49:57+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005528s ]
+
+[ 2017-01-03T21:52:42+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009886s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1760s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1147s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1605s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1646s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1627s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000966s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014261s ]
+
+[ 2017-01-03T21:52:44+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014553s ]
+
+[ 2017-01-03T22:00:43+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013361s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1491s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2431s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1826s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.2093s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1681s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000836s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020116s ]
+
+[ 2017-01-03T22:00:44+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013043s ]
+
+[ 2017-01-03T22:01:37+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013212s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1675s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1620s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1527s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1159s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1622s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000573s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013776s ]
+
+[ 2017-01-03T22:01:39+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013903s ]
+
+[ 2017-01-03T22:03:15+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013842s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1780s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1759s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1317s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1411s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1692s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000901s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018773s ]
+
+[ 2017-01-03T22:03:17+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013150s ]
+
+[ 2017-01-03T22:03:28+08:00 ] ::1 /blog/index.php/Admin/Index/savepwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012796s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1651s ]
+SQL: UPDATE `tp_user` SET `username`='hzx' WHERE `userpwd` = '123456' [ RunTime:0.0652s ]
+
+[ 2017-01-03T22:05:42+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012823s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1820s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1322s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1871s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1775s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1656s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000859s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016584s ]
+
+[ 2017-01-03T22:05:43+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013144s ]
+
+[ 2017-01-03T22:05:51+08:00 ] ::1 /blog/index.php/Admin/Index/savepwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012058s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1397s ]
+SQL: UPDATE `tp_user` SET `username`='hzx' WHERE `userpwd` = '123456' [ RunTime:0.0622s ]
+
+[ 2017-01-03T22:07:21+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013074s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.2673s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2043s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1642s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1394s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008119s ]
+
+[ 2017-01-03T22:07:43+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007732s ]
+
+[ 2017-01-03T22:08:04+08:00 ] ::1 /blog/index.php/Admin/Index/savepwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014018s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1832s ]
+SQL: UPDATE `tp_user` SET `username`='hzx' WHERE `userpwd` = '123456' [ RunTime:0.0519s ]
+
+[ 2017-01-03T22:17:54+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009643s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1218s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1322s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1485s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1138s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0951s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009015s ]
+
+[ 2017-01-03T22:18:16+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014957s ]
+
+[ 2017-01-03T22:18:36+08:00 ] ::1 /blog/index.php/Admin/Index/savepwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013871s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1806s ]
+SQL: UPDATE `tp_user` SET `username`='hzx' WHERE `userpwd` = '123456789' [ RunTime:0.0011s ]
+
+[ 2017-01-03T22:18:54+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013260s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1951s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1705s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1591s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1742s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1504s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000961s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011429s ]
+
+[ 2017-01-03T22:19:16+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019085s ]
+
+[ 2017-01-03T22:19:58+08:00 ] ::1 /blog/index.php/Admin/Index/savepwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012387s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1619s ]
+SQL: UPDATE `tp_user` SET `username`='hzx' WHERE `userpwd` = '123456789' [ RunTime:0.0010s ]
+
+[ 2017-01-03T22:22:35+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016124s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.2052s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1283s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1419s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1417s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0719s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000915s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017912s ]
+
+[ 2017-01-03T22:22:57+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000292s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022123s ]
+
+[ 2017-01-03T22:23:06+08:00 ] ::1 /blog/index.php/Admin/Index/savepwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014760s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1499s ]
+SQL: UPDATE `tp_user` SET `userpwd`='1234567' WHERE `username` = 'hzx' [ RunTime:0.1091s ]
+
+[ 2017-01-03T22:23:58+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014813s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1727s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1601s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000763s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023129s ]
+
+[ 2017-01-03T22:24:56+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013873s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1953s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000763s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.199094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.047732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.043764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044513s ]
+
+[ 2017-01-03T22:25:27+08:00 ] ::1 /blog/index.php/Admin/Filemannger/files.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019094s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.2050s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1878s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2042s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\FilemanngerController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,6   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: cs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020509s ]
+
+[ 2017-01-03T22:28:02+08:00 ] ::1 /blog/index.php/Admin/Filemannger/update/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008820s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1611s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1852s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2038s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000781s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023880s ]
+
+[ 2017-01-03T22:28:16+08:00 ] ::1 /blog/index.php/Admin/Filemannger/files.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000328s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015214s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1708s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1605s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1563s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\FilemanngerController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,6   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: cs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015469s ]
+
+[ 2017-01-03T22:28:42+08:00 ] ::1 /blog/index.php/Admin/Filemannger/fpinglun/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012538s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1389s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1620s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1747s ]
+SQL: SELECT `title` FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` WHERE `filed` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_pinglun` WHERE `filed` = 1 ORDER BY publishtime desc LIMIT 0,6   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `id` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.0843s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `thumb` FROM `tp_knowledgecount` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000782s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018910s ]
+
+[ 2017-01-03T22:30:19+08:00 ] ::1 /blog/index.php/Admin/Filemannger/fpinglun/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014214s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1423s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1787s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1594s ]
+SQL: SELECT `title` FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` WHERE `filed` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_pinglun` WHERE `filed` = 1 ORDER BY publishtime desc LIMIT 0,6   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `id` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_knowledgecount` [ RunTime:0.1729s ]
+SQL: SELECT `comment` FROM `tp_knowledgecount` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `read` FROM `tp_knowledgecount` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `thumb` FROM `tp_knowledgecount` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000870s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015016s ]
+
+[ 2017-01-03T22:30:25+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013741s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.3654s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.4563s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.3464s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.3333s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1851s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000656s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013965s ]
+
+[ 2017-01-03T22:30:47+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014209s ]
+
+[ 2017-01-03T22:31:53+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014342s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.2429s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2123s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1760s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1726s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.1707s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000897s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010959s ]
+
+[ 2017-01-03T22:32:16+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016908s ]
+
+[ 2017-01-03T22:32:25+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015165s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1884s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1449s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000946s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009428s ]
+
+[ 2017-01-03T22:32:58+08:00 ] ::1 /blog/index.php/Admin/Filemannger/files.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014016s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1748s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1690s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2188s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\FilemanngerController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: cs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.192181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.192811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018437s ]
+

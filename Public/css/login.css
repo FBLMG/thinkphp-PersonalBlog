@@ -1,0 +1,14 @@
+/* CSS Document */
+.container{
+   width:100%;
+}
+.left{width:25%;}
+.right{width:25%;}
+.content{width:50%;
+         margin-top:120px; 
+		 border:#FFF 1px solid;
+         border-radius:10px;}
+.content_center{width:50%;
+                padding-top:20px;
+				padding-bottom:50px;}
+

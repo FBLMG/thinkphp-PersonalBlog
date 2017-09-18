@@ -1,0 +1,1008 @@
+[ 2016-11-30T21:30:01+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004921s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1055s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0802s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000744s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001473s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011288s ]
+
+[ 2016-11-30T21:30:05+08:00 ] ::1 /blog/index.php/Home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000509s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005373s ]
+
+[ 2016-11-30T21:30:17+08:00 ] ::1 /blog/index.php/Home/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007190s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1025s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '141333' AND `userpwd` = '1413333' AND `state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-11-30T21:30:20+08:00 ] ::1 /blog/index.php/Home/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004243s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0529s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '141333' AND `userpwd` = '141333' AND `state` = 1 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2016-11-30T21:30:26+08:00 ] ::1 /blog/index.php/Home/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004457s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '141333' AND `userpwd` = '141333' AND `state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-11-30T21:30:43+08:00 ] ::1 /blog/index.php/Home/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006421s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0618s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '141333' AND `userpwd` = '123456' AND `state` = 1 LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2016-11-30T21:31:05+08:00 ] ::1 /blog/index.php/Home/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000249s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013367s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0545s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '1413333' AND `userpwd` = '123456' AND `state` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `tp_user` SET `lasttime`='2016-11-30 21:31:05' WHERE `username` = '1413333' [ RunTime:0.1348s ]
+
+[ 2016-11-30T21:31:06+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012189s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0542s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000867s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014207s ]
+
+[ 2016-11-30T21:31:09+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008885s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0451s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0467s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000628s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019536s ]
+
+[ 2016-11-30T21:34:46+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004972s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000905s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005095s ]
+
+[ 2016-11-30T21:34:47+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005437s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0483s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0579s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0534s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007098s ]
+
+[ 2016-11-30T21:36:24+08:00 ] ::1 /blog/index.php/Home/Image/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003972s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0421s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\ImageController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Home\Controller\ImageController.class.php 第 18 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_img` LIMIT 0,20   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 118 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 118 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 123 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 123 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 123 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006190s ]
+
+[ 2016-11-30T21:36:26+08:00 ] ::1 /blog/index.php/Home/Image/gallery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005401s ]
+ERR: 非法操作:gallery
+
+[ 2016-11-30T21:36:29+08:00 ] ::1 /blog/index.php/Home/Image/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007461s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0477s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Home\Controller\ImageController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Home\Controller\ImageController.class.php 第 18 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_img` LIMIT 0,20   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 118 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 118 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 123 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 123 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 123 行.
+NOTIC: [8] Undefined index: himgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\bf17a3f6041e957d72f977e1cc1def67.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007832s ]
+
+[ 2016-11-30T21:36:39+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005855s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0441s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0416s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000758s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006002s ]
+
+[ 2016-11-30T21:39:05+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005660s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0524s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000593s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008985s ]
+
+[ 2016-11-30T21:39:08+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005748s ]
+NOTIC: [8] Undefined index:  F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006757s ]
+
+[ 2016-11-30T21:39:11+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006641s ]
+NOTIC: [8] Undefined index:  F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005917s ]
+
+[ 2016-11-30T21:46:28+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005490s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0368s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0396s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000800s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005821s ]
+
+[ 2016-11-30T21:46:30+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009317s ]
+
+[ 2016-11-30T21:46:34+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005697s ]
+
+[ 2016-11-30T21:46:46+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006228s ]
+
+[ 2016-11-30T21:46:47+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005919s ]
+
+[ 2016-11-30T21:47:13+08:00 ] ::1 /blog/index.php/Home/Indexs/gallery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005558s ]
+ERR: 无法加载控制器:Indexs
+
+[ 2016-11-30T21:47:14+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006203s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0487s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0477s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000614s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008132s ]
+
+[ 2016-11-30T21:47:18+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005649s ]
+
+[ 2016-11-30T21:47:23+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004428s ]
+
+[ 2016-11-30T21:47:24+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005321s ]
+
+[ 2016-11-30T21:47:25+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005270s ]
+
+[ 2016-11-30T21:47:25+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004046s ]
+
+[ 2016-11-30T21:48:44+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006288s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0486s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0423s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0508s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000702s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013058s ]
+
+[ 2016-11-30T21:48:50+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005728s ]
+
+[ 2016-11-30T21:49:00+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006593s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0535s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0462s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0561s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000833s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008089s ]
+
+[ 2016-11-30T21:49:43+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004721s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0396s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0436s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0457s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000975s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010959s ]
+
+[ 2016-11-30T21:49:46+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004497s ]
+
+[ 2016-11-30T21:49:50+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005810s ]
+
+[ 2016-11-30T21:49:57+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0457s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000761s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005892s ]
+
+[ 2016-11-30T21:50:23+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004031s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0351s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0379s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012960s ]
+
+[ 2016-11-30T21:50:27+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005050s ]
+
+[ 2016-11-30T21:53:31+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005137s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0417s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0427s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0512s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000541s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009716s ]
+
+[ 2016-11-30T21:53:34+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007540s ]
+
+[ 2016-11-30T21:53:37+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004459s ]
+
+[ 2016-11-30T21:53:38+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004131s ]
+
+[ 2016-11-30T21:53:38+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005060s ]
+
+[ 2016-11-30T21:53:39+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004615s ]
+
+[ 2016-11-30T21:53:39+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006233s ]
+
+[ 2016-11-30T21:53:40+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006257s ]
+
+[ 2016-11-30T21:54:09+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003474s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0361s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0402s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006269s ]
+
+[ 2016-11-30T21:54:14+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008681s ]
+
+[ 2016-11-30T21:59:17+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004589s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0399s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0378s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0434s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000776s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005273s ]
+
+[ 2016-11-30T21:59:30+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007912s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0445s ]
+NOTIC: [8] Undefined variable: username F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = null LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0552s ]
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 21:59:30','<p>测试</p>','1413333',NULL)
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 21:59:30','<p>测试</p>','1413333',NULL)
+
+[ 2016-11-30T21:59:44+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005033s ]
+
+[ 2016-11-30T21:59:45+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005046s ]
+
+[ 2016-11-30T22:04:23+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005113s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0421s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0461s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000503s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000953s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016286s ]
+
+[ 2016-11-30T22:04:27+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008080s ]
+
+[ 2016-11-30T22:04:35+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004717s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0446s ]
+NOTIC: [8] Undefined variable: username F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0450s ]
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 22:04:35','<p>11</p>','1413333',NULL)
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 22:04:35','<p>11</p>','1413333',NULL)
+
+[ 2016-11-30T22:05:18+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004996s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0499s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0524s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0633s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000630s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001586s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010757s ]
+
+[ 2016-11-30T22:05:21+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006698s ]
+
+[ 2016-11-30T22:05:26+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006694s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0502s ]
+NOTIC: [8] Undefined variable: username F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0440s ]
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 22:05:26','<p>1111</p>','1413333',NULL)
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 22:05:26','<p>1111</p>','1413333',NULL)
+
+[ 2016-11-30T22:06:14+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005398s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0547s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0618s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0611s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000639s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8] Undefined index: cs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\a873315f4d7930e02d8853d9439fbb36.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010139s ]
+
+[ 2016-11-30T22:06:18+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006414s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0482s ]
+NOTIC: [8] Undefined variable: username F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = null LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0441s ]
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 22:06:18','<p>1111</p>','1413333',NULL)
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 22:06:18','<p>1111</p>','1413333',NULL)
+
+[ 2016-11-30T22:06:22+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004096s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0373s ]
+SQL: SHOW COLUMNS FROM `tp_returnmessage` [ RunTime:0.0408s ]
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = '1413333' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_message` WHERE ( uid=5 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index: cs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\a873315f4d7930e02d8853d9439fbb36.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006079s ]
+
+[ 2016-11-30T22:09:23+08:00 ] ::1 /blog/index.php/Home/Index/postmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004944s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0466s ]
+NOTIC: [8] Undefined variable: username F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SELECT `uid` FROM `tp_user` WHERE `username` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0452s ]
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 22:09:23','<p>11111</p>','1413333',NULL)
+ERR: 1048:Le champ 'uid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_message` (`publishtime`,`messagecontent`,`username`,`uid`) VALUES ('2016-11-30 22:09:23','<p>11111</p>','1413333',NULL)
+

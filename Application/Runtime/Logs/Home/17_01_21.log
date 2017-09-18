@@ -1,0 +1,353 @@
+[ 2017-01-21T14:02:07+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.059538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.072662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.073021s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.2625s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.4415s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000769s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001685s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.559150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.571588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.061490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.062398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.095417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.096244s ]
+
+[ 2017-01-21T14:02:48+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020040s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0844s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1127s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030220s ]
+
+[ 2017-01-21T14:02:53+08:00 ] ::1 /blog/index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008007s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Home\Controller\IndexController.class.php 第 30 行.
+
+[ 2017-01-21T14:02:53+08:00 ] ::1 /blog/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000718s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006234s ]
+
+[ 2017-01-21T15:16:26+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004602s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0587s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1298s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008713s ]
+
+[ 2017-01-21T15:20:57+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011808s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1524s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 1 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tp_knowledge` WHERE `typeid` = 3 ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1220s ]
+SQL: SELECT * FROM `tp_img` ORDER BY publishtime desc LIMIT 3   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined index: username F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011832s ]
+
+[ 2017-01-21T15:20:59+08:00 ] ::1 /blog/index.php/Home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000224s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008979s ]
+
+[ 2017-01-21T15:21:01+08:00 ] ::1 /blog/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 193 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 193 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 196 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 229 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011343s ]
+
+[ 2017-01-21T15:27:16+08:00 ] ::1 /blog/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006510s ]
+NOTIC: [8] Undefined index: stime F:\wamp\wamp\www\blog\Application\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 193 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 193 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 196 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 229 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014922s ]
+
+[ 2017-01-21T15:27:22+08:00 ] ::1 /blog/index.php/Home/Code/sendcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009196s ]
+NOTIC: [8] Use of undefined constant stime - assumed 'stime' F:\wamp\wamp\www\blog\Application\Home\Controller\CodeController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant stime - assumed 'stime' F:\wamp\wamp\www\blog\Application\Home\Controller\CodeController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1549s ]
+SQL: SELECT * FROM `tp_user` WHERE `phone` = '15220036492' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant stime - assumed 'stime' F:\wamp\wamp\www\blog\Application\Home\Controller\CodeController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007570s ]
+
+[ 2017-01-21T15:27:37+08:00 ] ::1 /blog/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000540s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001375s ]
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 193 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 193 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 196 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 229 行.
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008628s ]
+
+[ 2017-01-21T15:33:26+08:00 ] ::1 /blog/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015130s ]
+
+[ 2017-01-21T15:33:34+08:00 ] ::1 /blog/index.php/Home/Code/sendcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007382s ]
+NOTIC: [8] Use of undefined constant stime - assumed 'stime' F:\wamp\wamp\www\blog\Application\Home\Controller\CodeController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant stime - assumed 'stime' F:\wamp\wamp\www\blog\Application\Home\Controller\CodeController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1397s ]
+SQL: SELECT * FROM `tp_user` WHERE `phone` = '15220036492' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant stime - assumed 'stime' F:\wamp\wamp\www\blog\Application\Home\Controller\CodeController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008073s ]
+
+[ 2017-01-21T15:33:43+08:00 ] ::1 /blog/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] Undefined variable: showtimes F:\wamp\wamp\www\blog\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013030s ]
+
+[ 2017-01-21T15:33:54+08:00 ] ::1 /blog/index.php/Home/Code/sendcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006985s ]
+NOTIC: [8] Use of undefined constant stime - assumed 'stime' F:\wamp\wamp\www\blog\Application\Home\Controller\CodeController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant stime - assumed 'stime' F:\wamp\wamp\www\blog\Application\Home\Controller\CodeController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1261s ]
+SQL: SELECT * FROM `tp_user` WHERE `phone` = '15220036492' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant stime - assumed 'stime' F:\wamp\wamp\www\blog\Application\Home\Controller\CodeController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007992s ]
+
+[ 2017-01-21T15:34:15+08:00 ] ::1 /blog/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006141s ]
+
+[ 2017-01-21T15:34:20+08:00 ] ::1 /blog/index.php/Home/Code/sendcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006401s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1338s ]
+SQL: SELECT * FROM `tp_user` WHERE `phone` = '15220036492' LIMIT 1   [ RunTime:0.0016s ]
+

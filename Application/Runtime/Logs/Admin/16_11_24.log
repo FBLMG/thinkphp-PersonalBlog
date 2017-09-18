@@ -1,0 +1,1223 @@
+[ 2016-11-24T21:18:59+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013310s ]
+NOTIC: [8] Undefined index: adminname F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 6 行.
+
+[ 2016-11-24T21:19:00+08:00 ] ::1 /blog/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000758s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015327s ]
+
+[ 2016-11-24T21:19:07+08:00 ] ::1 /blog/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016458s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1124s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = 'hzx' AND `userpwd` = '123456' AND `state` = 0 LIMIT 1   [ RunTime:0.0021s ]
+SQL: UPDATE `tp_user` SET `lasttime`='2016-11-24 21:19:07' WHERE `username` = 'hzx' [ RunTime:0.3706s ]
+
+[ 2016-11-24T21:19:08+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014416s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1117s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0945s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0923s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.1049s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,20   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012503s ]
+
+[ 2016-11-24T21:19:10+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006859s ]
+
+[ 2016-11-24T21:19:14+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005936s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.4726s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.1155s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000771s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001915s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010516s ]
+
+[ 2016-11-24T21:19:17+08:00 ] ::1 /blog/index.php/Admin/Images/imgmanger.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009128s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0998s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0801s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0662s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 102 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 105 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_img` LIMIT 0,20   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined variable: v F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 80 行.
+NOTIC: [8] Undefined variable: v F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005185s ]
+
+[ 2016-11-24T21:19:21+08:00 ] ::1 /blog/index.php/Admin/Images/delimg/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008045s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 125 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008200s ]
+
+[ 2016-11-24T21:19:22+08:00 ] ::1 /blog/index.php/Admin/Images/delimg/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006840s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 125 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008714s ]
+
+[ 2016-11-24T21:19:50+08:00 ] ::1 /blog/index.php/Admin/Images/imgmanger.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011816s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1098s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0901s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0745s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 102 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 105 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_img` LIMIT 0,20   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000929s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009025s ]
+
+[ 2016-11-24T21:19:52+08:00 ] ::1 /blog/index.php/Admin/Images/delimg/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006054s ]
+NOTIC: [8] Undefined variable: img F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 127 行.
+
+[ 2016-11-24T21:20:31+08:00 ] ::1 /blog/index.php/Admin/Images/imgmanger.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003560s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0466s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0418s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0426s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 102 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 105 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_img` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004885s ]
+
+[ 2016-11-24T21:20:34+08:00 ] ::1 /blog/index.php/Admin/Images/delimg/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010776s ]
+NOTIC: [8] Undefined variable: img F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 127 行.
+
+[ 2016-11-24T21:21:07+08:00 ] ::1 /blog/index.php/Admin/Images/imgmanger.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003137s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0411s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 102 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 105 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_img` LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002953s ]
+
+[ 2016-11-24T21:21:11+08:00 ] ::1 /blog/index.php/Admin/Images/delimg/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004733s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0692s ]
+SQL: DELETE FROM `tp_img` WHERE `id` = 6 [ RunTime:0.0813s ]
+
+[ 2016-11-24T21:21:11+08:00 ] ::1 /blog/index.php/Admin/Images/imgmanger.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007539s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0722s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0513s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0576s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 102 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 105 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_img` LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006076s ]
+
+[ 2016-11-24T21:22:56+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006985s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0789s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user` WHERE `state` = 1 ORDER BY lasttime desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.0823s ]
+SQL: SELECT `title` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `img` FROM `tp_knowledge` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0866s ]
+SQL: SELECT `img` FROM `tp_img` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_pinglun` [ RunTime:0.0819s ]
+SQL: SELECT `content` FROM `tp_pinglun` ORDER BY publishtime desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0866s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_message` ORDER BY publishtime desc LIMIT 0,20   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pinglun` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: filets F:\wamp\wamp\www\blog\Application\Admin\Controller\IndexController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009895s ]
+
+[ 2016-11-24T21:22:57+08:00 ] ::1 /blog/index.php/Admin/Index/ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006988s ]
+
+[ 2016-11-24T21:32:34+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1653s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.1268s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001970s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011191s ]
+
+[ 2016-11-24T21:32:44+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009099s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1510s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1183s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000602s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014773s ]
+
+[ 2016-11-24T21:38:27+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007308s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0613s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.0574s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Use of undefined constant user_img - assumed 'user_img' F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 119 行.
+NOTIC: [8] Undefined variable: data F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 119 行.
+NOTIC: [8] Use of undefined constant user_img - assumed 'user_img' F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004930s ]
+
+[ 2016-11-24T21:38:55+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006297s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0767s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.0509s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] Use of undefined constant user_img - assumed 'user_img' F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 118 行.
+NOTIC: [8] Undefined variable: data F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 118 行.
+NOTIC: [8] Use of undefined constant user_img - assumed 'user_img' F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 121 行.
+NOTIC: [8] Undefined variable: data F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009829s ]
+
+[ 2016-11-24T21:39:19+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006848s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0855s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1013s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Use of undefined constant user_img - assumed 'user_img' F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 118 行.
+NOTIC: [8] Undefined variable: data F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 118 行.
+NOTIC: [8] Use of undefined constant user_img - assumed 'user_img' F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 121 行.
+NOTIC: [8] Undefined variable: data F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015357s ]
+
+[ 2016-11-24T21:39:38+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006601s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0993s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.0820s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000957s ]
+NOTIC: [8] Use of undefined constant user_img - assumed 'user_img' F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 119 行.
+NOTIC: [8] Undefined variable: data F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 119 行.
+NOTIC: [8] Use of undefined constant user_img - assumed 'user_img' F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\4fbd92be639756a81e3460d3bc8be5a4.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007570s ]
+
+[ 2016-11-24T21:40:08+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009810s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1137s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1181s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000705s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022056s ]
+
+[ 2016-11-24T21:40:54+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008645s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0858s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.0827s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000941s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010293s ]
+
+[ 2016-11-24T21:41:05+08:00 ] ::1 /blog/index.php/Admin/Filemannger/files.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009937s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1347s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1511s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `tp_knowledge` [ RunTime:0.1354s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\FilemanngerController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_knowledge` LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Admin\Controller\FilemanngerController.class.php 第 23 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_knowledge` LIMIT 0,20   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000538s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: cs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 77 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+NOTIC: [8] Undefined index: files F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\8bb51f740aafcda4c61574535e9ebad8.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013876s ]
+
+[ 2016-11-24T21:41:54+08:00 ] ::1 /blog/index.php/Admin/Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009260s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1182s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `tp_filetype` [ RunTime:0.1190s ]
+SQL: SELECT * FROM `tp_filetype`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002624s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003887s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007520s ]
+
+[ 2016-11-24T21:41:58+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013357s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1019s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.1336s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000529s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010349s ]
+
+[ 2016-11-24T21:42:10+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007544s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.1027s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007749s ]
+
+[ 2016-11-24T21:43:33+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006137s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0621s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.2137s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000963s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001776s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013537s ]
+
+[ 2016-11-24T21:43:44+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004353s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0667s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0723s ]
+SQL: INSERT INTO `tp_img` (`img`,`title`,`publishtime`,`typeid`) VALUES ('$time.jpg','海贼王','2016-11-24 21:43:44','1') [ RunTime:0.0910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022468s ]
+
+[ 2016-11-24T21:43:46+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004812s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0487s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004568s ]
+
+[ 2016-11-24T21:43:54+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014457s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0933s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011754s ]
+
+[ 2016-11-24T21:44:24+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006858s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0831s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0733s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000889s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009268s ]
+
+[ 2016-11-24T21:44:33+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010705s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0898s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011854s ]
+
+[ 2016-11-24T21:44:54+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008392s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0967s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.1003s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000999s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008264s ]
+
+[ 2016-11-24T21:45:01+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007657s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006150s ]
+
+[ 2016-11-24T21:45:28+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005737s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0499s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0887s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000907s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005658s ]
+
+[ 2016-11-24T21:45:28+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007436s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0590s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0608s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009423s ]
+
+[ 2016-11-24T21:45:38+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009524s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0926s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007282s ]
+
+[ 2016-11-24T21:46:52+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008223s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0836s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0837s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000730s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010619s ]
+
+[ 2016-11-24T21:46:55+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006826s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0908s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008809s ]
+
+[ 2016-11-24T21:47:03+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006665s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005490s ]
+
+[ 2016-11-24T21:47:36+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007447s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0930s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0814s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000781s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008630s ]
+
+[ 2016-11-24T21:47:42+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006237s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0836s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0754s ]
+SQL: INSERT INTO `tp_img` (`img`,`title`,`publishtime`,`typeid`) VALUES ('$t.jpg','海贼王','2016-11-24 21:47:42','1') [ RunTime:0.0476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006887s ]
+
+[ 2016-11-24T21:47:44+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006720s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0825s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0795s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000832s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008798s ]
+
+[ 2016-11-24T21:47:49+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008615s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0792s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000637s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005408s ]
+
+[ 2016-11-24T21:52:09+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008500s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0984s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0938s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000485s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009729s ]
+
+[ 2016-11-24T21:52:29+08:00 ] ::1 /blog/index.php/Admin/Images/dopostimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008746s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0828s ]
+SQL: SELECT * FROM `tp_imgtype` WHERE `type` = '动漫' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0900s ]
+SQL: INSERT INTO `tp_img` (`img`,`title`,`publishtime`,`typeid`) VALUES ('9ca0816.jpg','海贼王','2016-11-24 21:52:28','1') [ RunTime:0.0523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007185s ]
+
+[ 2016-11-24T21:52:30+08:00 ] ::1 /blog/index.php/Admin/Images/postimge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007145s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0771s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0857s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000759s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006554s ]
+
+[ 2016-11-24T21:53:02+08:00 ] ::1 /blog/index.php/Admin/Images/imgmanger.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008093s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1091s ]
+SQL: SELECT `lasttime` FROM `tp_user` WHERE `username` = 'hzx' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_imgtype` [ RunTime:0.0930s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.1109s ]
+SQL: SELECT * FROM `tp_imgtype`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: id F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 102 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: p F:\wamp\wamp\www\blog\Application\Admin\Controller\ImagesController.class.php 第 105 行.
+NOTIC: [8] Undefined index: limit F:\wamp\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `tp_img` LIMIT 0,20   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000516s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001302s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 71 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+NOTIC: [8] Undefined index: imgs F:\wamp\wamp\www\blog\Application\Runtime\Cache\Admin\9942631df0d754cbb67140cf6fc72cb7.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010365s ]
+
